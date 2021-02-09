@@ -1,0 +1,190 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: white;
+}
+.head{
+  position: fixed;
+  width: 100%;
+}
+.navbar {
+  background-color: black;
+  height: 50px;
+  margin: 0px;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 50px;
+  z-index: 500;
+}
+
+.header {
+  background-color: whitesmoke;
+  height: 80px;
+
+  padding-top: 50px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+}
+
+.container{
+  background: linear-gradient(to right ,yellow,rgb(87,87,29));
+}
+.contentwrap {
+  z-index: 1;
+  /* background: url("/img/diaries.jpg") no-repeat; */
+  /* height: 600px; */
+  /* background-size: cover; */
+  background-color: white;
+  bottom: 40;
+  width: 80%;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.text {
+  padding: 20px;
+}
+
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  height: 30px;
+  bottom: 0;
+  /* position: fixed; */
+}
+/* ======NAVIGATION BAR========*/
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  float: left;
+  padding-top: 10px;
+  border-right: 1px solid white;
+}
+li:last-child {
+  border-right: none;
+}
+
+a {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+/*=============HEADINGS===========*/
+
+h1 {
+  margin: 0px;
+  padding-top: 20px;
+  top: 50px;
+  right: 50px;
+  /* position: relative; */
+  color: rgb(87, 87, 29);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+
+h2{
+  display: flex;
+  flex-direction: column;
+}
+.CANADA{
+  font-size:30px;
+}
+/*===============CONTENT==============*/
+.v{
+  background-image: url(/img/CANADA-vancouver.jpg);
+  background-size: cover;
+  height: 400px;
+  background-color:rgba(0,0,0,0.7) ;
+  background-blend-mode: multiply;
+  color: white;
+  background-position-x: right;
+  background-position-y: bottom ;
+  padding: 20px;
+  margin-top: 20px;
+}
+.vv{
+  width: 80%;
+  margin: auto;
+}
+.t{
+  background-image: url(/img/CANADA-Toronto.jpg);
+  background-size: cover;
+  height: 400px;
+  background-color:rgba(0,0,0,0.7) ;
+  background-blend-mode: multiply;
+  color: white;
+  background-position-x: center;
+  background-position-y: bottom ;
+  padding: 20px;
+  margin-top: 20px;
+}
+.o{
+  background-image: url(/img/CANADA-ottawa.jpg);
+  background-size: cover;
+  height: 400px;
+  background-color:rgba(0,0,0,0.7) ;
+  background-blend-mode: multiply;
+  color: white;
+  background-position-x: right;
+  background-position-y: bottom ;
+  padding: 20px;
+  margin-top: 20px;
+}
+.CANADA{
+  background-color: rgb(113, 124, 11);
+  color: white;
+  padding-left: 10px;
+}
+/*======RESPONSIVE CSS LAYOUT=======*/
+
+@media only screen and (max-width: 800px) {
+  a {
+    font-size: 12px;
+  }
+
+}
+@media only screen and (max-width: 410px) {
+ 
+  .navbar{
+    padding-left: 10px;
+  }
+}
+@media only screen and (max-width: 350px) {
+ 
+  .navbar{
+    padding-left: 2px;
+  }
+}
+@media only screen and (max-width: 500px) {
+ 
+  .v{
+    height: 300px;
+  }
+  .t{
+    height: 300px;
+  }
+  .o{
+    height: 300px;
+  }
+}
+
+
