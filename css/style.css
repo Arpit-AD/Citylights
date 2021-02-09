@@ -110,7 +110,7 @@ h2{
 }
 /*===============CONTENT==============*/
 .v{
-  background-image: url(/img/CANADA-vancouver.jpg);
+  background-image: url(img/CANADA-vancouver.jpg);
   background-size: cover;
   height: 400px;
   background-color:rgba(0,0,0,0.7) ;
@@ -126,7 +126,7 @@ h2{
   margin: auto;
 }
 .t{
-  background-image: url(/img/CANADA-Toronto.jpg);
+  background-image: url(img/CANADA-Toronto.jpg);
   background-size: cover;
   height: 400px;
   background-color:rgba(0,0,0,0.7) ;
@@ -138,7 +138,7 @@ h2{
   margin-top: 20px;
 }
 .o{
-  background-image: url(/img/CANADA-ottawa.jpg);
+  background-image: url(img/CANADA-ottawa.jpg);
   background-size: cover;
   height: 400px;
   background-color:rgba(0,0,0,0.7) ;
