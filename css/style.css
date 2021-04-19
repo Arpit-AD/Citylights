@@ -5,7 +5,7 @@ html {
   overflow-x: hidden;
   background-color: white;
 }
-.head{
+.head {
   position: fixed;
   width: 100%;
 }
@@ -29,14 +29,11 @@ html {
   z-index: 100;
 }
 
-.container{
-  background: linear-gradient(to right ,yellow,rgb(87,87,29));
+.container {
+  background: linear-gradient(to right, yellow, rgb(87, 87, 29));
 }
 .contentwrap {
   z-index: 1;
-  /* background: url("/img/diaries.jpg") no-repeat; */
-  /* height: 600px; */
-  /* background-size: cover; */
   background-color: white;
   bottom: 40;
   width: 80%;
@@ -47,7 +44,6 @@ html {
 .text {
   padding: 20px;
 }
-
 
 .footer {
   background-color: black;
@@ -101,55 +97,55 @@ h1 {
   font-family: "Pacifico", cursive;
 }
 
-h2{
+h2 {
   display: flex;
   flex-direction: column;
 }
-.CANADA{
-  font-size:30px;
+.CANADA {
+  font-size: 30px;
 }
 /*===============CONTENT==============*/
-.v{
-  background-image: url(img/CANADA-vancouver.jpg);
+.v {
+  background-image: url(/img/CANADA-vancouver.jpg);
   background-size: cover;
   height: 400px;
-  background-color:rgba(0,0,0,0.7) ;
+  background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: multiply;
   color: white;
   background-position-x: right;
-  background-position-y: bottom ;
+  background-position-y: bottom;
   padding: 20px;
   margin-top: 20px;
 }
-.vv{
+.vv {
   width: 80%;
   margin: auto;
 }
-.t{
-  background-image: url(img/CANADA-Toronto.jpg);
+.t {
+  background-image: url(/img/CANADA-Toronto.jpg);
   background-size: cover;
   height: 400px;
-  background-color:rgba(0,0,0,0.7) ;
+  background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: multiply;
   color: white;
   background-position-x: center;
-  background-position-y: bottom ;
+  background-position-y: bottom;
   padding: 20px;
   margin-top: 20px;
 }
-.o{
-  background-image: url(img/CANADA-ottawa.jpg);
+.o {
+  background-image: url(/img/CANADA-ottawa.jpg);
   background-size: cover;
   height: 400px;
-  background-color:rgba(0,0,0,0.7) ;
+  background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: multiply;
   color: white;
   background-position-x: right;
-  background-position-y: bottom ;
+  background-position-y: bottom;
   padding: 20px;
   margin-top: 20px;
 }
-.CANADA{
+.CANADA {
   background-color: rgb(113, 124, 11);
   color: white;
   padding-left: 10px;
@@ -160,31 +156,25 @@ h2{
   a {
     font-size: 12px;
   }
-
 }
 @media only screen and (max-width: 410px) {
- 
-  .navbar{
+  .navbar {
     padding-left: 10px;
   }
 }
 @media only screen and (max-width: 350px) {
- 
-  .navbar{
+  .navbar {
     padding-left: 2px;
   }
 }
 @media only screen and (max-width: 500px) {
- 
-  .v{
+  .v {
     height: 300px;
   }
-  .t{
+  .t {
     height: 300px;
   }
-  .o{
+  .o {
     height: 300px;
   }
 }
-
-
